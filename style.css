@@ -10,13 +10,20 @@ h1 {
     text-align: center;
     color: blue;
     text-decoration-line: underline;
+
 }
 
 /*sous titre*/
 h2 {
-    text-align: center;
     color: blue;
     text-decoration-line: underline;
+    border-style: double;
+    border-color: blue;
+    width: 300px;
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 15px;
+    background-color: aquamarine;
 }
 
 .candidat {
@@ -55,13 +62,13 @@ h2 {
     margin-top: 30px;
     background-image: url("back1.jpg");
     background-size: cover;
+    background-position: -40px;
 }
 
 .hobbies {
     border-style: solid;
     border-color: black;
     width: 700px;
-    text-align: 200px;
     border-radius: 25px;
     box-shadow: blue 5px 5px 5px;
     margin-left: 280px;
@@ -71,10 +78,18 @@ h2 {
 }
 
 .imp {
+    border-style: double;
+    border-color: blue;
+    margin: 30px 0;
+    border-radius: 15px;
+    background-color: aquamarine;
     text-decoration-line: underline;
     text-decoration-color: blue;
+    width: 300px;
+    text-align: center;
 }
 
 ul {
     margin-left: 100px;
+    list-style-type: none;
 }
