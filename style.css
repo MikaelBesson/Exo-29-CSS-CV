@@ -1,0 +1,64 @@
+/*titre*/
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+h1 {
+    font-family: 'Parisienne', cursive;
+    font-size:  50px ;
+    text-align: center;
+    color: blue;
+    text-decoration-line: underline;
+}
+
+/*sous titre*/
+h2 {
+    text-align: center;
+    color: blue;
+    text-decoration-line: underline;
+}
+
+.candidat {
+    border-style: solid;
+    border-color: black;
+    width: 500px;
+    text-align: left;
+    border-radius: 25px;
+    box-shadow: blue 5px 5px 5px;
+    margin-left: 380px;
+}
+
+.formation {
+    border-style: solid;
+    border-color: black;
+    width: 500px;
+    text-align: left;
+    border-radius: 25px;
+    box-shadow: blue 5px 5px 5px;
+    margin-left: 380px;
+    margin-top: 30px;
+}
+
+.profesionnel {
+    border-style: solid;
+    border-color: black;
+    width: 500px;
+    text-align: left;
+    border-radius: 25px;
+    box-shadow: blue 5px 5px 5px;
+    margin-left: 380px;
+    margin-top: 30px;
+}
+
+.hobbies {
+    border-style: solid;
+    border-color: black;
+    width: 500px;
+    text-align: left;
+    border-radius: 25px;
+    box-shadow: blue 5px 5px 5px;
+    margin-left: 380px;
+    margin-top: 30px;
+}
+
+.imp {
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+}
