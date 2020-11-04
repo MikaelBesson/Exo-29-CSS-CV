@@ -1,16 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Concert+One&family=Courgette&display=swap');
 body {
     background-image: url("back.jpg");
     background-size: cover;
+    font-family: 'Courgette', cursive;
+
 }
 /*titre*/
-@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
 h1 {
     font-family: 'Parisienne', cursive;
     font-size:  50px ;
     text-align: center;
     color: blue;
     text-decoration-line: underline;
-
 }
 
 /*sous titre*/
@@ -24,28 +28,29 @@ h2 {
     margin: 20px auto;
     border-radius: 15px;
     background-color: aquamarine;
+
 }
 
 .candidat {
     border-style: solid;
-    border-color: black;
+    border-color: blue;
     width: 700px;
     text-align: left;
     border-radius: 25px;
     box-shadow: blue 5px 5px 5px;
-    margin-left: 280px;
+    margin-left: 50px;
     background-image: url("back1.jpg");
     background-size: cover;
 }
 
 .formation {
     border-style: solid;
-    border-color: black;
+    border-color: blue;
     width: 700px;
     text-align: left;
     border-radius: 25px;
     box-shadow: blue 5px 5px 5px;
-    margin-left: 280px;
+    margin-left: 150px;
     margin-top: 30px;
     background-image: url("back1.jpg");
     background-size: cover;
@@ -53,31 +58,31 @@ h2 {
 
 .profesionnel {
     border-style: solid;
-    border-color: black;
+    border-color: blue;
     width: 700px;
     text-align: left;
     border-radius: 25px;
     box-shadow: blue 5px 5px 5px;
-    margin-left: 280px;
+    margin-left: 250px;
     margin-top: 30px;
     background-image: url("back1.jpg");
     background-size: cover;
-    background-position: -40px;
 }
 
 .hobbies {
     border-style: solid;
-    border-color: black;
+    border-color: blue;
     width: 700px;
     border-radius: 25px;
     box-shadow: blue 5px 5px 5px;
-    margin-left: 280px;
+    margin-left: 350px;
     margin-top: 30px;
     background-image: url("back1.jpg");
     background-size: cover;
 }
 
 .imp {
+    font-family: 'Carter One', cursive;
     border-style: double;
     border-color: blue;
     margin: 30px 0;
@@ -85,11 +90,24 @@ h2 {
     background-color: aquamarine;
     text-decoration-line: underline;
     text-decoration-color: blue;
-    width: 300px;
+    width: 350px;
     text-align: center;
+    padding: 5px;
 }
 
 ul {
     margin-left: 100px;
     list-style-type: none;
+
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    border-radius: 90px;
+    border-style: dotted;
+    border-color: blue;
+    box-shadow: blue 5px 5px 10px;
+    margin-left: 890px;
+    margin-bottom: -360px;
 }
