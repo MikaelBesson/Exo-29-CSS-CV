@@ -98,7 +98,6 @@ h2 {
 ul {
     margin-left: 100px;
     list-style-type: none;
-
 }
 
 img {
@@ -111,3 +110,19 @@ img {
     margin-left: 890px;
     margin-bottom: -360px;
 }
+
+.contact {
+    border-style: solid;
+    border-color: blue;
+    width: 350px;
+    height: 300px;
+    border-radius: 25px;
+    box-shadow: blue 5px 5px 5px;
+    background-image: url("back1.jpg");
+    background-size: cover;
+    margin-top: -1109px;
+    margin-left: 880px;
+    margin-top: -1110px;
+    padding-left: 30px;
+}
+
